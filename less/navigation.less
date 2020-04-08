@@ -1,1 +1,40 @@
 // Navigation Styles here
+#funbus {
+	width: 20%;
+	margin-right: 30rem;
+	@media @mobile {
+		width: 100%;
+		text-align: center;
+		margin: auto;
+		font-size: 2rem;
+	}
+}
+
+nav a {
+	font-size: 2rem;
+	align-items: baseline;
+	text-decoration: none;
+	color: black;
+	@media @mobile {
+		font-size: 1.5rem;
+		margin: 1rem 1rem;
+	}
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	max-width: 800px;
+	margin-top: 5%;
+	padding-top: 1rem;
+	margin: auto;
+	height: 10rem;
+	align-items: center;
+	border-bottom: 3px dashed rgb(192, 192, 192);
+	flex-wrap: wrap;
+	@media @mobile {
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+}
